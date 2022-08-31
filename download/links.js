@@ -22,3 +22,16 @@ function enviaR(){
         alert('[ERRO], Dados incorretos tente novamente.')
     }
 }
+
+function linK1(){
+    var res = document.querySelector('ol#link1')
+    
+    res.innerHTML = `
+        <li><a href="download/img/cinza.png" style="color: #232399">teste imagem</a></li>
+    
+    
+    `
+
+
+    
+}

@@ -22,3 +22,19 @@ function enviaR(){
         alert('[ERRO], Dados incorretos tente novamente.')
     }
 }
+
+function linK1(){
+    var res = document.querySelector('ol#link1')
+    
+    res.innerHTML = `
+        <li><a href="download/img/cinza.png" style="color: #232399">Pagina Inteira</a></li>
+        <li><a href="download/img/cinza.png" style="color: #232399">Area Projeto</a></li>
+        <li><a href="download/img/cinza.png" style="color: #232399">Area Sobre</a></li>
+        <li><a href="download/img/cinza.png" style="color: #232399">Area Contato</a></li>
+        <li><a href="download/img/cinza.png" style="color: #232399">Estrutura Projeto</a></li>
+    
+    `
+
+
+    
+}

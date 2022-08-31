@@ -1,0 +1,63 @@
+header{
+    margin: 0%;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(71, 71, 71));
+    padding: 0.5px;
+    font-size: 17px;
+}
+#cent1{
+    text-align: center;
+    margin: 5px;
+
+}
+a{
+    text-decoration: none;
+    margin-left: 1%;
+}
+#in{
+
+    text-align: center;
+    margin: 19%;
+ 
+}
+body{
+    margin: 0%;
+    background-color: rgb(255, 255, 255);
+}
+#sobre{
+    position: absolute;
+    margin: 20%;
+    top: 70%;
+    left: 20%;
+}
+#tl{
+    margin: 10%;
+    text-align: center;
+
+}
+
+/* Area de configuração da area CONTATO*/
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.contato{
+    width: 100%;
+    max-width: 500px;
+}
+.field{
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(165, 165, 165);
+}
+textarea{
+    height: 150px;
+    border: none;
+    background-color: rgb(137, 194, 135);
+}

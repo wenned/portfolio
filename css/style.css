@@ -61,6 +61,12 @@ p{
     height: 60%;
     padding: 30%;
 }
+.logocent{
+    position: absolute;
+    left: 60%;
+    top: 30%;
+    opacity: 0.4;
+}
 
 /* Area de configuração da area CONTATO*/
 .content{

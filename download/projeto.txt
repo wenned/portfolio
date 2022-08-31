@@ -15,7 +15,7 @@
             <a href="index.html" style="color: white; text-align: right;" >Inicio</a>
             <a href="index.html" style="color: white; text-align: right;" >Sobre</a>
             <a href="projeto.html" rel="prev" style="color: white; text-align: right;" >Projeto</a>
-            <a href="index.html" style="color: rgb(255, 255, 255); text-align: right;" >Contato</a>
+            <a href="#index.html" style="color: rgb(255, 255, 255); text-align: right;" >Contato</a>
         </ul>
 
 
@@ -27,18 +27,16 @@
                 <ol id="link" type="1"> </ol>
             </div>
             <br>
-        <button class="field" style="cursor: pointer; border: none; background-color: #6ca56c; color: white " onclick="linK()">Gerar links Arquivos</button>   <!-- Botao que ir gerar os links via JavaScript após receber ação de click-->
+        <button onclick="linK()">Gerar links</button>   <!-- Botao que ir gerar os links via JavaScript após receber ação de click-->
         <div>
             <h1>Links Download Imagens Projeto:</h1>
             <div>
                 <ol id="link1" type="1"> </ol>
             </div>
-            <div class="logocent"><img src="img/logo.png" width="250" alt=""></div>
             <br>
-        <button class="field" style="cursor: pointer; border: none; background-color: #6ca56c; color: white " onclick="linK1()">Gerar links Imagens</button>   <!-- Botao que ir gerar os links via JavaScript após receber ação de click-->
+        <button onclick="linK1()">Gerar links Imagens</button>   <!-- Botao que ir gerar os links via JavaScript após receber ação de click-->
             
         </div>
- 
     </section>
     <script src="js/links.js"></script>
 </body>

@@ -1,8 +1,8 @@
 function linK(){
     var lin = document.getElementById('link')
     lin.innerHTML = `
-    <li><a href="download/index.html" title="HyperText Markup Language" style="color: #232399" download="txt/html">Download HTML Index</a></li>
-    <li><a target="_blank" href="download/projeto.txt" title="HyperText Markup Language" style="color: #232399 download="txt/html">Download HTML Pag.Projeto</a></li>
+    <li><a href="download/index.txt" title="HyperText Markup Language" style="color: #232399" download="txt/txt">Download HTML Index</a></li>
+    <li><a target="_blank" href="download/projeto.txt" title="HyperText Markup Language" style="color: #232399 download="txt/txt">Download HTML Pag.Projeto</a></li>
     <li><a href="download/style.css" title="Cascading Style Sheets" style="color: #232399 download="txt/css">Download CSS</a></li>
     <li><a href="download/links.js" title="JavaScript" style="color: #232399 download="application/ecmascript">Download código JS</a></li> 
     `

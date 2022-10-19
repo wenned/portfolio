@@ -9,17 +9,7 @@
     <link rel="shortcut icon" href="img/icons/inicio.ico" type="image/x-icon">
     
 </head>
-<body class="corpo">
-    <div class="redondon"><div></div></div>
-    <img src="img/top.png" alt="top" id="top">
-
-    <div class="oct0"> <img src="img/oct.png" alt=""></div>
-    <div class="img0"><img src="img/cap.png" alt=""></div>
-
-    <div class="oct3"><img src="img/oct.png" alt=""></div>
-
- 
-
+<body>
     <header> <!--links dos menu de navegacao-->
         <ul id="home">
             <a href="index.html" style="color: #ffffff; text-align: right;" >Inicio</a>
@@ -31,10 +21,7 @@
 
     </header>
 
-   <section >
-    
-
-   
+    <section>
         <div class="oriO"> <!--icons de ligacao com contato de rede sociais-->
             <ul>
                 <li><a target="_blank" href="https://www.linkedin.com/in/wenned-silva-078b30180/"><img src="img/icons/linkedin.png" alt="linkedin"></a></li>
@@ -47,11 +34,17 @@
         <div id="in">
             <img src="img/nome1.png" id="nome" alt="nme"> <!--imagem principal nome capa-->
         </div>
-        <div class="redondon0"><div></div></div>
+
         <h1 style="text-align: center;" id="sobre">Sobre Mim</h1>
         <hr class="texto" >
-        
 
+        <div id="orient1">
+            <img id="ori1" src="img/cap.png" alt=""><!--imagens da area sobre-->
+        </div>
+
+        <div id="orient">
+            <img id="ori" src="img/cinza.png" alt="#"> <!--imagens da are sobre-->
+        </div>
 
         <div class="texto"> <!--area texto com paragrafo da are sobre-->
             <p><strong>Nome: </strong>Wenned Silva</p>
@@ -61,15 +54,8 @@
 
 
         </div>
-        <div class="oct1"><img src="img/oct.png" alt=""></div>
 
-        <div class="img1"><img src="img/cinza.png" alt=""></div>
-
-        <div class="oct2"> <img src="img/oct.png" alt=""></div>
-        <div class="redondon1"><div></div></div>
-        <h1 id="forma">Formação</h1>
-
-
+        <h1 id="forma" class="fd" style="text-align: center;">Formação</h1>
 
         <div class="texto1"> <!--area texto dobre formacao-->
             <p>
@@ -78,12 +64,11 @@
                 <p><strong>Idioma:</strong> Portugues, <em>Ingles - <small>Cursando</small></p></em>
 
         </div>
-    
     </section>
 	<section class="content"> <!--sessao formulario para envio de mensagens -->
 
-        <div id="contato">
-            <h1 style="text-align: center;">Contato</h1>
+        <div class="contato">
+            <h1 style="text-align: center;" id="contato">Contato</h1>
 
             <form class="form">
                 <input class="field" type="text" placeholder="Nome" id="nomecontato" required="Insira o nome">
@@ -96,13 +81,12 @@
     </section>
 
     <br>
-    <a id="a" href="#home" style="text-decoration: none;">Voltar</a>
-
-    <!-- <footer>
+    <a href="#home" style="text-decoration: none;">Voltar</a>
+    <footer>
         <a target="_blank"  href="https://github.com/wenned" >
             <p id="cent1" title="GitHuB Wenned Silva">&copy;Wenned Silva</p>
         </a>
-    </footer> -->
+    </footer>
     <script src="js/links.js"></script> <!--ligacao com arquivo JavaScript-->
 </body>
 </html>

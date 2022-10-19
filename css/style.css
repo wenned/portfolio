@@ -1,63 +1,216 @@
-header{
-    margin: 0%;
-    background-image: linear-gradient(rgb(0, 0, 0), rgb(71, 71, 71));
-    padding: 0.5px;
-    font-size: 17px;
-}
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /*suavidade de deslisamento da pagina ao licar na barra de menus*/
     scroll-padding: 80px;
 }
-body{ margin: 0%;
-    background-color: rgb(255, 255, 255);}
-
-a{ text-decoration: none; margin-left: 1%;}
-/* ---------------------------------------------------------------------------    Barra Navegação*/
-.oriO{
+.corpo{
     position: absolute;
-    left: 90%;
-    top: 45%;}
-
-/* ---------------------------------   midias socias*/
-
-
-#in{ height:1000px; width: 450px; }    /* nome capa -- volta aqui*/ 
-
-#nome{
-    position:absolute;
+    width: 100%;
     height: 100%;
-    width: 30%;
-    left: 30%;
-    object-fit: contain;
+    background-color: #d3d3d3;
 }
 
-/* orientação das imagens da pagina inicial*/
+.redondon{
+    opacity: 0.5;
+    top: 100px;
+    left: 200px;
+    position: absolute;
+    background-color: #d3d3d3;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 15px solid #4bb84b;
+}
+.redondon div{
+    background-color: #d3d3d3;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 10px solid #4bb84b;
+}
 
-#orient1{ height:70px; width: 450px;}
-    #ori1{position: absolute; width: 500px; padding: 15px; top: 109%;}
+.redondon0{
+    opacity: 0.5;
+    top: 850px;
+    left: 1000px;
+    position: absolute;
+    background-color: #d3d3d3;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 15px solid #4bb84b;
+}
+.redondon0 div{
+    background-color: #d3d3d3;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 10px solid #4bb84b;
+}
 
-#orient{ height:500px; width: 450px;}
-    #ori{position: absolute; width: 500px; left: 30%; top: 145%;}
+.redondon1{
+    opacity: 0.5;
+    top: 1400px;
+    left: 450px;
+    position: absolute;
+    background-color: #d3d3d3;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 15px solid #4bb84b;
+}
+.redondon1 div{
+    background-color: #d3d3d3;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 10px solid #4bb84b;
+}
 
-/* oreientação texto das imagens*/
+#top{
+    width: 100%;
+    height: 70%;
+    padding: none;
+}
 
-#sobre{position:absolute; top: 100%; left: 50%;}
+.corpo header ul{
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+    padding: none;
+    
+}
+.corpo header ul a{
+    text-decoration: none;
+    margin: 8px;}
+
+#a{
+    position: fixed;
+    width: 50px;
+    text-align: left;
+    top: 700px;
+    padding: 10px;
+    list-style: none; 
+    border: 1px solid black;
+    border-radius: 5px;
+    height:20px;
+    color: black;
+    text-decoration: none;
+}
+
+.oct0{
+    position: absolute;
+    left: 100px;
+    top: 760px;
+}
+.oct0 img{ width: 500px;}
+
+.oct1{
+    position: absolute;
+    left: 1000px;
+    top: 1250px;
+}
+.oct1 img{ width: 500px;}
+
+.oct2{
+    position: absolute;
+    top: 1300px;
+    transform: rotate(20deg);
+}
+.oct2 img{ width: 1000px; opacity: 0.1;}
+
+.oct3{
+    position: absolute;
+    top: 500px;
+    left: 700px;
+    transform: rotate(20deg);
+}
+.oct3 img{ width: 1000px; opacity: 0.1;}
+
+.texto1{
+    position: absolute;
+    left: 250px;
+    text-align: justify;
+    top: 1500px;
+}
+#forma{
+    position: absolute;
+    left: 600px;
+    text-align: justify;
+    top: 1400px;
+}
 
 .texto{
     position: absolute;
     text-align: justify;
-    margin: 15%;
-    top: 77%;
-    left: 20%;
+    margin: 165px;
+    top: 760px;
+    left: 550px;
 }
-.texto1{
+
+#sobre{position:absolute; top: 850px; left: 1100px;}
+
+#contato{
     position: absolute;
-    margin: 20%;
-    width: 400px;
-    top: 40%;
-    left: 20%;
-    padding: 30%;
+    top: 350px;
 }
+.form{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+}
+
+.img0{
+    position: absolute;
+    top: 900px;
+    left: 230px;
+
+}
+.img0 img{
+    width: 430px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #302f2f;
+}
+
+.img1{
+    position: absolute;
+    top: 1350px;
+    left: 860px;
+}
+.img1 img{
+    width: 430px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #302f2f;
+}
+/* =============================================================================================================================== */
+/* a{ text-decoration: none; margin-left: 1%;} */
+/* ---------------------------------------------------------------------------    Barra Navegação*/
+.oriO{
+    position: fixed;
+    width: 98%;
+    text-align: right;
+    top: 300px;
+    list-style: none;   
+}
+
+/* ---------------------------------   midias socias*/
+
+
+#in{
+    
+}    /* nome capa*/
+
+#nome{
+    position:absolute;
+    height: 100%;
+    width: 500px;
+    left: 400px;
+    top: 10px;
+    object-fit: contain;
+}
+
+
+/* oreientação texto das imagens*/
+
 
 .logocent{
     position: absolute;
@@ -68,32 +221,20 @@ a{ text-decoration: none; margin-left: 1%;}
 
 #cent1{
     text-align: center;
-    margin: 5px;
-
-}
-.fd{
-    position: absolute;
-    top: 137%;
-    left: 80%;
-    
-}
+    margin: 5px;}
 
 
-/* Area de configuração da area CONTATO*/
+
+
+/* Area de configuração da area formulario */
 .content{
+    top: 150%;
     display: flex;
+    position: relative;
     justify-content: center;
 }
 
-.form{
-    display: flex;
-    width: 500px;
-    flex-direction: column;
-}
-.contato{
-    height: 100%;
-    max-width: 500px;
-}
+
 .field{
     padding: 5px;
     margin-bottom: 15px;
@@ -107,7 +248,8 @@ textarea{
     background-color: rgb(137, 194, 135);
 }
 
-/*  ----------------- ---------------------------------------     Midias query */
+/*  ----------------- ---------------------------------------     
+Midias querys, are responsavel pela adaptacao em plataformas diferentes*/
 
 @media (min-width: 375px) and (max-width: 915px) {
 
@@ -124,24 +266,12 @@ textarea{
         top: 20%;
     }
 
-    #in{
-        position: relative;
-        height:300px;
+    .texto1{top: 210%; left: 5%; text-align: justify; }
 
-    }
-    .texto1{top: 177%; left: -45%; text-align: justify; width: 400px;;
-    }
-
-    .texto{top: 95%; left: -5%; text-align: justify;}
+    .texto{top: 95%; left: -10%; text-align: justify;}
 
 
-    #in{ height:1500px; width: 100%; }
-
-    #orient1{ height:70px; width: 450px;}
-    #ori1{position: absolute; width: 350px; padding: 40px; top: 65%;}
-    
-    #orient{ height:70px; width: 450px;}
-    #ori{position: absolute; width: 350px; top: 165%; left: 10%;}
+    #in{ height:1800px;}
     
     
     .form{
@@ -149,10 +279,5 @@ textarea{
         width: 320px;
         flex-direction: column;
     }
-
-    .fd{
-        position: absolute;
-        top: 200%;
-        left: 30%;}
 
 }

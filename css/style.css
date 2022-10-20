@@ -81,6 +81,14 @@ html{
     margin: 8px;
     color: azure;    
 }
+
+#home a:hover {
+    background-color: #fcfcfc;
+    border-radius: 3px;
+    opacity: 0.6;
+    color: black;
+}
+
 .corpo header{
     position: absolute;
     left: 950px;

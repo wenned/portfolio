@@ -177,11 +177,29 @@ section{
 
 #portfolio{
     top: -150px;
-    left: 100px;
+    left: 50px;
     position: absolute;
     width: 400px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #008371ff; 
     /* cor principal */
     
+}
+
+#descricaO{
+    position: relative;
+    width: 100px;
+    top: 700px;
+    left: 1370px;
+    display: none;
+}
+#descricaO h3{
+    position: flex;
+    width: 200px;
+    left: -20px;
+    font-size: 15px;
+}
+#descricaO img{
+    width: 60px;
+
 }

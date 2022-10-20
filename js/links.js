@@ -1,40 +1,38 @@
 function mostratextZero(){
 
     var texto = document.getElementById('proj0')
+    var desc = document.getElementById('descricaO')
 
     var element = document.getElementById('verifica')
     texto.removeChild(element)
 
     texto.innerHTML = `
     <div id="verifica">
-    <h1>Links Download Codigos:</h1>
-    <div>
-        <ol id="link" type="1"> </ol>
-    </div>
-    <br>
-    <button class="field" style="cursor: pointer; border: none; background-color: #6ca56c; color: white " onclick="linK()">Gerar links Arquivos</button>
-    </div>
+
+
+    <img id="portfolio" src="img/portifolio.png" alt="imagem primeiro projeto portifolio">
+
     `
+    desc.style.display = 'block';
 }
 
 function mostratextOne(){
 
     var texto = document.getElementById('proj0')
+    var desc = document.getElementById('descricaO')
 
     var elementpai = document.getElementById('proj0') 
     var element = document.getElementById('verifica')
     elementpai.removeChild(element)
 
+
     texto.innerHTML = `
     <div id="verifica">
-    <h1>Links Download Imagens Projeto:</h1>
-    <div>
-        <ol id="link1" type="1"> </ol>
-    </div>
-    <br>
-    <button class="field" style="cursor: pointer; border: none; background-color: #6ca56c; color: white " onclick="linK1()">Gerar links Imagens</button>
+
+    <img id="portfolio" src="img/gerenciador.png" alt="imagem primeiro projeto portifolio">
     </div>
     `
+    desc.style.display = 'block';
 }
 
 function mostratextTwo(){
@@ -46,6 +44,14 @@ function mostratextTwo(){
     texto.innerHTML = `
 
     <h1>PROJETO II</h1>
+
+    <h1>Links Download Codigos:</h1>
+    <div>
+        <ol id="link" type="1"> </ol>
+    </div>
+    <br>
+    <button class="field" style="cursor: pointer; border: none; background-color: #6ca56c; color: white " onclick="linK()">Gerar links Arquivos</button>
+    </div>
 
     </div>
     `

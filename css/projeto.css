@@ -101,6 +101,13 @@ section{
     left: 900px;
 }
 
+.projeto0 img {
+    top:30px ;
+    left: 5px;
+    width: 160px;
+    position: relative;
+}
+
 .projeto1{
     position: absolute;
     width: 170px;
@@ -116,6 +123,14 @@ section{
     opacity: 0.7;
 }
 
+.projeto1 img {
+    top:30px ;
+    left: 5px;
+    width: 160px;
+    position: relative;
+}
+
+
 .projeto2{
     position: absolute;
     width: 170px;
@@ -130,6 +145,15 @@ section{
 .projeto2:hover{
     opacity: 0.7;
 }
+
+.projeto2 img {
+    top:30px ;
+    left: 5px;
+    width: 160px;
+    position: relative;
+}
+
+
 .projeto3{
     position: absolute;
     width: 170px;
@@ -142,4 +166,22 @@ section{
 }
 .projeto3:hover{
     opacity: 0.7;
+}
+
+.projeto3 img {
+    top:30px ;
+    left: 5px;
+    width: 160px;
+    position: relative;
+}
+
+#portfolio{
+    top: -150px;
+    left: 100px;
+    position: absolute;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #008371ff; 
+    /* cor principal */
+    
 }

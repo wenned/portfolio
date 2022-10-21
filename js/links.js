@@ -21,9 +21,8 @@ function mostratextOne(){
     var texto = document.getElementById('proj0')
     var desc = document.getElementById('descricaO')
 
-    var elementpai = document.getElementById('proj0') 
     var element = document.getElementById('verifica')
-    elementpai.removeChild(element)
+    texto.removeChild(element)
 
 
     texto.innerHTML = `
@@ -37,39 +36,47 @@ function mostratextOne(){
 
 function mostratextTwo(){
 
-    var texto = document.getElementById('proj0') 
-    var element = document.getElementById('verifica')
-    texto.removeChild(element)
+    // var texto = document.getElementById('proj0') 
+    // var desc = document.getElementById('descricaO')
 
-    texto.innerHTML = `
+    // var element = document.getElementById('verifica')
+    // texto.removeChild(element)
 
-    <h1>PROJETO II</h1>
+    // texto.innerHTML = `
 
-    <h1>Links Download Codigos:</h1>
-    <div>
-        <ol id="link" type="1"> </ol>
-    </div>
-    <br>
-    <button class="field" style="cursor: pointer; border: none; background-color: #6ca56c; color: white " onclick="linK()">Gerar links Arquivos</button>
-    </div>
+    // <div id="verifica">
 
-    </div>
-    `
+    // <h1>PROJETO II</h1>
+
+    // <h1>Links Download Codigos:</h1>
+    // <div>
+    //     <ol id="link" type="1"> </ol>
+    // </div>
+    // <br>
+    // <button class="field" style="cursor: pointer; border: none; background-color: #6ca56c; color: white " onclick="linK()">Gerar links Arquivos</button>
+    // </div>
+
+    // </div>
+    // </div>
+    // `
+    // desc.style.display = 'none';
 }
 
 function mostratextTree(){
 
-    var texto = document.getElementById('proj0')
-    var element = document.getElementById('verifica')
-    texto.removeChild(element)
+    // var texto = document.getElementById('proj0')
+    // var desc = document.getElementById('descricaO')
+    // var element = document.getElementById('verifica')
+    // texto.removeChild(element)
 
-    texto.innerHTML = `
-    <div id="verifica">
+    // texto.innerHTML = `
+    // <div id="verifica">
 
-    <h1>PROJETO III</h1>
+    // <h1>PROJETO III</h1>
 
-    </div>
-    `
+    // </div>
+    // `
+    // desc.style.display = 'none';
 }
 
 

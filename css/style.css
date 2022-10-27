@@ -7,8 +7,8 @@
 body .corpo{
     height: 100%;
 	display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
 	background-color: #ffffff;
 }
 
@@ -352,4 +352,141 @@ textarea{
     height: 25px;
     border-radius: 50%;
     border: 10px solid #4bb84b;
+}
+
+/* ================= ====     ==== ========= === ======================= */
+
+
+/* ================= ====     ==== ========= === ======================= */
+
+@media (max-width: 426px)  and (min-width: 412px) {
+
+    #home{left: 10px;}
+
+    #home strong a { font-size: 13px;}
+
+    #nome{
+        width: 300px;
+        left: 40px;
+        top: 170px;
+    }
+
+    .corpo::before{
+        height: 170px;
+        border-top: 200px solid #07edadff;
+        border-left: 100px solid #07edadff;
+        border-bottom: 100px solid #ffffff;
+        border-right: 100px solid #ffffff;
+    }
+
+
+    .redescontato{
+        left: 370px;
+        top: 230px;
+    }.redescontato img{ width: 30px;}
+
+    .hex0{
+        top: 300px;
+        left: 250px;
+        height: 190px;
+        width: 284px;
+    }
+    .hex1{
+        top: 300px;
+        left: 250px;
+        height: 190px;
+        width: 284px;
+    }
+    .hex2{
+        top: 310px;
+        left: 250px;
+        height: 175px;
+        width: 290px;
+    }
+    #hexmin0{position: absolute;}
+
+    .img0{
+        top: 400px;
+        left: 30px;
+    }
+
+    .img0 img{width: 330px;}
+
+    #sobre{top: 650px; left: 200px;}
+
+    .texto{
+        margin: 5px;
+        top: 690px;
+        left: 10px;
+    }    
+
+    .hex3{
+        top: 1100px;
+        left: 50px;
+        height: 190px;
+        width: 284px;
+    }
+    .hex4{
+        top: 1100px;
+        left: 50px;
+        height: 190px;
+        width: 284px;
+    }
+    .hex5{
+        top: 1110px;
+        left: 50px;
+        height: 175px;
+        width: 290px;
+    }
+
+    .img1fone{
+        top: 1100px;
+        left: 50px;
+    }
+    .img1fone img{
+        width: 270px;
+    }
+
+    #forma{
+        left: 50px;
+        top: 1380px;
+    }
+
+    .texto1{
+        margin: 10px;
+        left: 5px;
+        top: 1450px;
+    }
+    .hexbig0, .hexbig1, .hexbig2, .hexbig3, .hexbig4, .hexbig5{
+        display: none;
+    }
+
+    #contato h1{
+        margin-left: 50px;
+    }
+    .form{
+        margin-left: 30px;
+        width: 350px;
+        flex-direction: column;
+    }
+
+    .content{
+        top: 1670px;
+
+    }
+
+    .redondon0{
+        top: 660px;
+        left: 300px;
+    }
+
+    .redondon1{
+        top: 1380px;
+        left: 40px;
+    }
+
+    #hexmin0, #hexmin1{
+        transform: rotate(20deg);
+    }
+
 }

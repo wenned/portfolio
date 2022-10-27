@@ -1,43 +1,54 @@
-.corpo{
-    margin-top: none;
-    margin: none;
-    width: none;
-    height: none;
-    background-color: #d3d3d3;
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
 }
 
-#top{
-    margin-top: -17px;
-    left: -0px;
+body .corpo{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	background-color: #f3dcdc;
+}
+
+.corpo{
     position: absolute;
     width: 100%;
     height: 50%;
-
-    padding: none;
+    background-color: #07edadff;
 }
 
-#home a{
+.corpo::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 370px;
+    box-sizing: border-box;
+    border: 60px solid transparent;
+    border-top: 300px solid #07edadff;
+    border-left: 300px solid #07edadff;
+    border-bottom: 100px solid #ffffff;
+    border-right: 350px solid #ffffff;
+}
+
+#home{
+    position: absolute;
+    top: 20px;
+    left: 900px;
+}
+
+#home strong a{
     font-size: 18px;
     text-decoration: none;
     margin: 8px;
-    color: azure;    
+    color: rgb(0, 0, 0);    
 }
-.corpo header{
-    position: absolute;
-    left: 950px;
-}
+
 #home a:hover {
     background-color: #fcfcfc;
     border-radius: 3px;
     opacity: 0.6;
     color: black;
-}
-
-.logocent{
-    position: absolute;
-    left: 1190px;
-    top: 340px;
-    opacity: 0.4;
 }
 
 .redondon{
@@ -58,36 +69,69 @@
     border-radius: 50%;
     border: 10px solid #4bb84b;
 }
+
+
+.logocent{
+    position: absolute;
+    left: 1100px;
+    top: 100px;
+    opacity: 0.4;
+}
+.logocent img { width: 150px;}
+
+.hexbig2{
+    top: 197px;
+    position: absolute;
+    left: 50px;
+    height: 380px;
+    width: 615px;
+    background-color: #07edadff;
+    border-radius: 30px;
+    transform: rotate(30deg);
+
+}
+.hexbig1{
+    top: 200px;
+    position: absolute;
+    left: 50px;
+    height: 380px;
+    width: 615px;
+    background-color: #05f3b0ff;
+    border-radius: 30px;
+    transform: rotate(-29deg);
+}
+.hexbig0{
+    top: 205px;
+    position: absolute;
+    left: 53px;
+    height: 370px;
+    width: 615px;
+    background-color: #0ae5a8ff;
+    border-radius: 30px;
+    transform: rotate(90deg);
+}
+
+#big{
+    opacity: 0.2;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    transform: rotate(20deg);
+}
+
 section{
     position: absolute;
 }
-
-.oct0{
-    position: absolute;
-    left: 100px;
-    top: 500px;
-}
-.oct0 img{ width: 600px;}
-
-.oct1{
-    position: absolute;
-    left: 900px;
-    top: 1100px;
-}
-.oct1 img{ width: 500px;}
-
-/* =============================== divs projeto */
 
 .projeto0{
     position: absolute;
     width: 170px;
     height: 170px;
-    top: 590px;
-    left: 400px;
-    background-color: #5c775c;
-    box-shadow: -0.3em 5px .3em #fcfcfc;
+    top: 450px;
+    left: 150px;
+    background-color: #07edadff;
+    box-shadow: -0.3em 5px .3em #008371ff;
     border-radius: 5px;
-
 }
 .projeto0:hover{
     opacity: 0.7;
@@ -97,25 +141,22 @@ section{
     position: absolute;
     width: 650px;
     height: 350px;
-    top: 600px;
-    left: 900px;
+    top: 500px;
+    left: 700px;
 }
 
 .projeto0 img {
-    top:30px ;
-    left: 5px;
     width: 160px;
-    position: relative;
 }
 
 .projeto1{
     position: absolute;
     width: 170px;
     height: 170px;
-    top: 810px;
-    left: 400px;
-    background-color: #5c775c;
-    box-shadow: -0.3em 5px .3em #fcfcfc;
+    top: 700px;
+    left: 100px;
+    background-color: #07edadff;
+    box-shadow: -0.3em 5px .3em #008371ff;
     border-radius: 5px;
 
 }
@@ -130,15 +171,14 @@ section{
     position: relative;
 }
 
-
 .projeto2{
     position: absolute;
     width: 170px;
     height: 170px;
-    top: 620px;
-    left: 630px;
-    background-color: #5c775c;
-    box-shadow: -0.3em 5px .3em #fcfcfc;
+    top: 450px;
+    left: 430px;
+    background-color: #07edadff;
+    box-shadow: -0.3em 5px .3em #008371ff;
     border-radius: 5px;
 
 }
@@ -153,15 +193,14 @@ section{
     position: relative;
 }
 
-
 .projeto3{
     position: absolute;
     width: 170px;
     height: 170px;
-    top: 827px;
-    left: 630px;
-    background-color: #5c775c;
-    box-shadow: -0.3em 5px .3em #fcfcfc;
+    top: 700px;
+    left: 380px;
+    background-color: #07edadff;
+    box-shadow: -0.3em 5px .3em #008371ff;
     border-radius: 5px;
 }
 .projeto3:hover{
@@ -187,19 +226,22 @@ section{
 }
 
 #descricaO{
+    padding: 8px;
     position: relative;
-    width: 100px;
-    top: 700px;
-    left: 1370px;
+    width: 370px;
+    top: 500px;
+    left: 1200px;
     display: none;
 }
 #descricaO h3{
+    padding: 15px;
     position: flex;
+    margin: auto;
     width: 200px;
-    left: -20px;
+    left: 200px;
     font-size: 15px;
 }
 #descricaO img{
     width: 60px;
-
+    margin: 10px;
 }

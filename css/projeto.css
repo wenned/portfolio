@@ -119,10 +119,6 @@ body .corpo{
     transform: rotate(20deg);
 }
 
-section{
-    position: absolute;
-}
-
 .projeto0{
     position: absolute;
     width: 170px;
@@ -244,4 +240,93 @@ section{
 #descricaO img{
     width: 60px;
     margin: 10px;
+}
+
+@media (max-width: 426px)  and (min-width: 412px) {
+
+    #home{left: 89px;}
+
+    #home strong a { font-size: 13px;}
+
+    .corpo{height: auto;}
+
+    .corpo::before{
+        height: 170px;
+        border-top: 130px solid #07edadff;
+        border-left: 100px solid #07edadff;
+        border-bottom: 100px solid #ffffff;
+        border-right: 100px solid #ffffff;
+    }
+
+
+    .logocent{
+        left: 30px;
+        top: 10px;
+    }
+    .logocent img { width: 50px;}
+
+    #big{
+        display: none;
+    }
+    .projeto0{
+        width: 300px;
+        height: 80px;
+        left: 50px;
+        top: 200px;
+    }
+    .projeto0 img{ width: 120px;}
+
+    .projeto1{
+        width: 300px;
+        height: 80px;
+        left: 50px;
+        top: 300px;
+    }
+
+    .projeto1 img{ 
+        position: relative;
+        top: 1px;
+        width: 120px;}
+
+    .projeto2{
+        width: 300px;
+        height: 80px;
+        left: 50px;
+        top: 400px;
+    }
+
+    .projeto2 img{
+        position: relative;
+        top: 1px;
+        width: 120px;}
+
+    .projeto3{
+        width: 300px;
+        height: 80px;
+        left: 50px;
+        top: 500px;
+    }
+
+    .projeto3 img{
+        position: relative;
+        top: 1px;
+        width: 120px;}
+
+    #proj0{
+        width: 400px;
+        height: 350px;
+        top: 600px;
+        left: 5px;
+    }
+
+    #portfolio{
+        top: 50px;
+        left: 5px;
+    }
+
+    #descricaO{
+        width: 370px;
+        top: 1200px;
+        left: 50px;
+    }
 }

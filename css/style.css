@@ -7,8 +7,8 @@
 body .corpo{
     height: 100%;
 	display: flex;
-    /* flex-direction: column;
-    flex-wrap: wrap; */
+    flex-direction: column;
+    flex-wrap: wrap;
 	background-color: #ffffff;
 }
 

@@ -242,11 +242,54 @@ body .corpo{
     margin: 10px;
 }
 
+/* ======================================================= */
+
+.redescontato {
+    top: 150vh;
+    position: absolute;
+    height: 10vh;
+    display: flex;
+    left: 37%;
+
+}
+.redescontato nav li{ list-style: none;}
+
+nav {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: #ffffff solid 2px;
+    transition: 0.3s all ease-in-out;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #07edadff;
+    border: #07edadff solid 2px;
+    box-shadow: 0 0 5px #07edadff,
+                0 0 15px #07edadff;
+}
+
+
+/* ======================================================== */
+
 @media (max-width: 426px)  and (min-width: 412px) {
 
-    #home{left: 89px;}
+    #home{left: 100px;}
 
-    #home strong a { font-size: 13px;}
+    #home strong a { font-size: 13px; padding: 5px;}
 
     .corpo{height: auto;}
 
@@ -328,5 +371,11 @@ body .corpo{
         width: 370px;
         top: 1200px;
         left: 50px;
+    }
+
+    
+    .redescontato {
+        top: 279vh;
+        left: 10%;
     }
 }

@@ -43,7 +43,7 @@ body .corpo{
     font-size: 18px;
     text-decoration: none;
     margin: 8px;
-    color: rgb(0, 0, 0);    
+    color: #000000;    
 }
 
 #home a:hover {
@@ -53,14 +53,48 @@ body .corpo{
     color: black;
 }
 
-.redescontato{
-    position: fixed;
-    left: 1500px;
-    text-align: right;
-    top: 300px;
-    list-style: none;   
-}.redescontato ul{list-style: none;}
+/* ======================================================= */
 
+.redescontato {
+    top: 300vh;
+    position: absolute;
+    height: 10vh;
+    display: flex;
+    left: 37%;
+
+}
+.redescontato nav li{ list-style: none;}
+
+nav {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: #ffffff solid 2px;
+    transition: 0.3s all ease-in-out;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #07edadff;
+    border: #07edadff solid 2px;
+    box-shadow: 0 0 5px #07edadff,
+                0 0 15px #07edadff;
+}
+
+
+/* ======================================================== */
 .hex0{
     top: 880px;
     position: absolute;
@@ -273,6 +307,7 @@ body .corpo{
 }
 
 #contato h1{
+    padding: 20px;
     margin-left: 140%;
 }
 
@@ -379,12 +414,6 @@ textarea{
         border-right: 100px solid #ffffff;
     }
 
-
-    .redescontato{
-        left: 370px;
-        top: 230px;
-    }.redescontato img{ width: 30px;}
-
     .hex0{
         top: 300px;
         left: 250px;
@@ -487,6 +516,11 @@ textarea{
 
     #hexmin0, #hexmin1{
         transform: rotate(20deg);
+    }
+
+    .redescontato {
+        top: 335vh;
+        left: 10%;
     }
 
 }

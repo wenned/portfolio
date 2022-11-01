@@ -32,24 +32,34 @@ body .corpo{
     border-bottom: 100px solid #ffffff;
     border-right: 350px solid #ffffff;
 }
+/* ================================ ========= */
 
-#home{
+#hmenu { display: none;}
+
+ul li img {display: none;}
+ul { list-style: none;
+    display: flex;}
+
+#menu{
     position: absolute;
     top: 20px;
-    left: 880px;
+    left: 900px;
+    display: block;
+    display: flex;
 }
 
-#home a{
+#menu li a{
+    font-weight: bold;
     font-size: 18px;
     text-decoration: none;
     margin: 8px;
     color: #000000;    
 }
 
-#home a:hover {
+#menu li a:hover {
     background-color: #fcfcfc;
     border-radius: 3px;
-    opacity: 0.6;
+    opacity: 0.8;
     color: black;
 }
 
@@ -395,10 +405,6 @@ textarea{
 /* ================= ====     ==== ========= === ======================= */
 
 @media (max-width: 426px)  and (min-width: 412px) {
-
-    #home{left: 10px;}
-
-    #home strong a { font-size: 13px;}
 
     #nome{
         width: 300px;

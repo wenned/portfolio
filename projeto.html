@@ -9,23 +9,26 @@
 
     <link rel="shortcut icon" href="img/icons/anter.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/projeto.css">
+    <link rel="stylesheet" href="css/menumob1.css">
 
 </head>
 
 <body>
         <div class="corpo">
-            <header>
-                <div>
-                    <ul id="home">
-                        <strong>
-                            <a href="index.html" >INICIO</a>
-                            <a href="index.html" >SOBRE</a>
-                            <a href="#cont" >CONTATO</a>
-                            <a href="index.html" >FORMACAO</a>
-                        </strong>
-                    </ul>
-                </div>
-            </header>
+
+            <div id="hmenu"><a id="hmenu1" href="#" onclick="openMenu()"><img src="img/icons/menu/ellipsis.svg" alt=""></a></div>
+
+            <ul  id="menu" >
+
+                <li><img src="img/icons/menu/home.svg" alt=""><a href="index.html">INÍCIO</a></li>
+
+                <li><img id="sobr" src="img/icons/menu/projeto.svg" alt=""><a href="#sobre">SOBRE</a></li>
+
+                <li><img id="projet" src="img/icons/menu/contato.svg" alt=""><a href="#proj">PROJETOS</a></li>
+
+                <li><img id="contat" src="img/icons/menu/sobre.svg" alt=""><a href="#cont">CONTATO</a></li>
+        
+            </ul>
 
             <div class="redondon"><div></div></div>
 
@@ -52,7 +55,9 @@
                     </div>
 
                 </div>
-            
+                
+                <div><h1 id="proj">PROJETOS</h1></div>
+
                 <a href="#verificar" onclick="mostratextZero()">
                     <div class="projeto0" ><img src="img/projeto1.png" alt=""></div>
                 </a>
@@ -65,7 +70,7 @@
                     <div class="projeto2"> <img src="img/projeto3.png" alt=""></div> 
                 </a>
 
-                <a href="#verificar" onclick="mostratextTree()">
+                <a href="#verificar" onclick="mostratextThree()">
                     <div class="projeto3"><img src="img/projeto4.png" alt=""></div>   
                 </a>
 
@@ -90,6 +95,7 @@
             
         </div>
         
-    <script src="js/criacaoRemocao.js"></script> 
+    <script src="js/criacaoRemocao.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>

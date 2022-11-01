@@ -62,7 +62,7 @@ function mostratextTwo(){
     // desc.style.display = 'none';
 }
 
-function mostratextTree(){
+function mostratextThree(){
 
     // var texto = document.getElementById('proj0')
     // var desc = document.getElementById('descricaO')

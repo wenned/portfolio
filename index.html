@@ -8,6 +8,8 @@
     <title>Inicio</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menumob.css">
+    
     <link rel="shortcut icon" href="img/icons/inicio.ico" type="image/x-icon">
     
 </head>
@@ -30,18 +32,21 @@
         <img src="img/nome1.png" id="nome" alt="nme"> 
     </div>
     
-     <header> <!--links dos menu de navegacao-->
-        <ul id="home">
-            <strong>
-                <a href="index.html">INICIO</a>
-                <a id="b" href="#sobre" >SOBRE</a>
-                <a id="c" href="projeto.html" rel="next" >PROJETOS</a>
-                <a id="d" href="#contato" >CONTATO</a>
-                <a  href="#forma" >FORMACAO</a>
-            </strong>
-        </ul>
 
-    </header>
+        <div id="hmenu"><a id="hmenu1" href="#" onclick="openMenu()"><img src="img/icons/menu/ellipsis.svg" alt=""></a></div>
+
+            <ul  id="menu" >
+
+                <li><img src="img/icons/menu/home.svg" alt=""><a href="index.html">INICIO</a></li>
+
+                <li><img id="sobr" src="img/icons/menu/projeto.svg" alt=""><a href="#sobre">SOBRE</a></li>
+
+                <li><img id="projet" src="img/icons/menu/contato.svg" alt=""><a href="projeto.html">PROJETOS</a></li>
+
+                <li><img id="contat" src="img/icons/menu/sobre.svg" alt=""><a href="#contato">CONTATO</a></li>
+        
+            </ul>
+
         <section>
     
             <div id="big">
@@ -133,6 +138,7 @@
         </footer>
 
 	</div>
-    <script src="js/criacaoRemocao.js"></script> <!--ligacao com arquivo JavaScript-->
+    <script src="js/criacaoRemocao.js"></script> 
+    <script src="js/menu.js"></script>
 </body>
 </html>

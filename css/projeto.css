@@ -398,3 +398,98 @@ nav a.active {
         left: 4em;
     }
 }
+
+
+
+@media (max-width: 890px)  and (min-width: 600px) {
+
+    #menu{
+        left: 16em;
+    }
+
+    .corpo{height:0;}
+
+    .corpo::before{
+        height: 170px;
+        border-top: 130px solid #07edadff;
+        border-left: 100px solid #07edadff;
+        border-bottom: 100px solid #ffffff;
+        border-right: 100px solid #ffffff;
+    }
+
+    .logocent{
+        left: 10em;
+        top: 10px;
+    }
+    .logocent img { width: 50px;}
+
+    .projeto0{
+        width: 300px;
+        height: 80px;
+        left: 50px;
+        top: 13em;
+    }
+    
+    .projeto0 img{ width: 120px;}
+
+    .projeto1{
+        width: 300px;
+        height: 80px;
+        left: 25em;
+        top: 13em;
+    }
+
+    .projeto1 img{ 
+        position: relative;
+        top: 1px;
+        width: 120px;}
+
+    .projeto2{
+        width: 300px;
+        height: 80px;
+        left: 50px;
+        top: 20em;
+    }
+
+    .projeto2 img{
+        position: relative;
+        top: 1px;
+        width: 120px;}
+
+    .projeto3{
+        width: 300px;
+        height: 80px;
+        left: 25em;
+        top: 20em;
+    }
+
+    .projeto3 img{
+        position: relative;
+        top: 1px;
+        width: 120px;}
+
+    #proj0{
+        top: 25em;
+        left: 10em;
+    }
+
+    #portfolio{
+        top: 4em;
+        left: 5px;
+    }
+
+    #descricaO{
+        top: 50em;
+        left: 13em;
+    }
+
+    .redescontato {
+        top: 120vh;
+        left: 20vh;
+    }
+
+    h1{
+        top: 6.5em;
+        left: 15em;
+    }
+}

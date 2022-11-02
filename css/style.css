@@ -6,6 +6,7 @@
 }
 
 body .corpo{
+    position: relative;
 	display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -409,7 +410,9 @@ textarea{
         top: 170px;
     }
     
-    .corpo{height: 0;}
+    .corpo{
+        position: relative;
+        height: 0;}
 
     .corpo::before{
         height: 170px;
@@ -524,8 +527,99 @@ textarea{
     }
 
     .redescontato {
-        top: 335vh;
+        top: 230vh;
         left: 10%;
+    }
+
+}
+
+@media (max-width: 890px)  and (min-width: 600px) {
+
+    #menu{
+        left: 16em;
+    }
+
+    #nome{
+        width: 300px;
+        left: 15em;
+        top: 170px;
+    }
+    
+    .corpo{
+        height: 0;}
+
+    .corpo::before{
+        border-top: 200px solid #07edadff;
+        border-left: 100px solid #07edadff;
+        border-right: 200px solid #ffffff;
+    }
+
+    .hex0, .hex1, .hex2 { top: 30em; }
+
+    .hex0, .hex1, .hex2{z-index: 1;}
+
+    .img0{
+            top: 31em;
+            z-index: 1;
+        }
+
+    #sobre{top: 35em; left: 5em;}
+
+    .texto{
+        margin: 30px;
+        top: 56em;
+        left: 2em;
+    }  
+    .redondon0{
+        top: 52.5em;
+        left: 14em;
+    }
+
+    .hex3, .hex4, .hex5 {
+        top: 80em;
+        left: 15em;
+    }
+
+    .hex3, .hex4, .hex5{z-index: 1;}
+
+    .img1fone{
+        top: 80em;
+        left: 8em;
+        z-index: 1;
+    }
+
+    #forma{
+        left: 23em;
+        top: 67em;
+        z-index: 1;
+    }
+
+    .redondon1{
+        top: 147vh;
+        left: 40em;
+    }
+
+    .texto1{
+        margin: 10px;
+        left: 5em;
+        top: 103em;
+        z-index: 1;
+    }
+
+    .content{
+        left: -20em;
+        top: 115em;
+
+    }
+
+    .redescontato {
+        top: 210vh;
+        left: 25vh;
+    } 
+
+    .hexbig0, .hexbig1, .hexbig2{
+        top: 40vh;
+        left: -50vh;
     }
 
 }

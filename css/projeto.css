@@ -263,44 +263,49 @@ h1{
 
 /* ======================================================= */
 
-.redescontato {
-    top: 150vh;
-    position: absolute;
-    height: 10vh;
-    display: flex;
-    left: 37%;
+footer{top: 150vh;
+    width: 100%;
+    position: absolute;}
 
-}
-.redescontato nav li{ list-style: none;}
-
-nav {
-    width: 300px;
-    height: 50px;
+footer section {
     display: flex;
-    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    height: 150px;
+    background-color: #07edadff;}
+
+footer section nav {
+    left: 40%;
+    position: relative;
     align-items: center;
-}
-
-nav a {
-    width: 50px;
-    height: 50px;
-    background-color: #ffffff;
     display: flex;
+    }
+
+footer section nav li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    list-style: none;}
+
+footer section nav li a{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s all ease-in-out;
+
+
     justify-content: center;
-    align-items: center;
     border-radius: 100%;
     border: #ffffff solid 2px;
-    transition: 0.3s all ease-in-out;
-}
 
-nav a:hover,
-nav a.active {
-    background-color: #07edadff;
-    border: #07edadff solid 2px;
+}
+footer section nav li a:hover{
+    background-color: #ffffff;
+    border: #ffffff solid 1px;
     box-shadow: 0 0 5px #07edadff,
                 0 0 15px #07edadff;
 }
-
 
 /* ======================================================== */
 

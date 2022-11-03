@@ -392,16 +392,20 @@ footer section nav li a:hover{
         left: 50px;
     }
 
-    
-    .redescontato {
-        top: 279vh;
-        left: 10%;
-    }
-
     h1{
         top: 6em;
         left: 4em;
     }
+
+    footer{
+        top: 180vh;
+    }
+    footer section nav{
+        left: 25%;
+    }
+    footer section nav li a img{
+        width: 20px;
+    };
 }
 
 
@@ -409,7 +413,7 @@ footer section nav li a:hover{
 @media (max-width: 890px)  and (min-width: 600px) {
 
     #menu{
-        left: 16em;
+        left: 24em;
     }
 
     .corpo{height:0;}
@@ -488,13 +492,15 @@ footer section nav li a:hover{
         left: 13em;
     }
 
-    .redescontato {
-        top: 120vh;
-        left: 20vh;
-    }
-
     h1{
         top: 6.5em;
         left: 15em;
+    }
+
+    footer{
+        top: 120vh;
+    }
+    footer section nav{
+        left: 33%;
     }
 }

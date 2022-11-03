@@ -532,9 +532,14 @@ textarea{
         transform: rotate(20deg);
     }
 
-    .redescontato {
+    footer{
         top: 230vh;
-        left: 10%;
+    }
+    footer section nav{
+        left: 25%;
+    }
+    footer section nav li a img{
+        width: 20px;
     }
 
 }
@@ -542,7 +547,7 @@ textarea{
 @media (max-width: 890px)  and (min-width: 600px) {
 
     #menu{
-        left: 16em;
+        left: 18em;
     }
 
     #nome{
@@ -618,14 +623,16 @@ textarea{
 
     }
 
-    .redescontato {
-        top: 210vh;
-        left: 25vh;
-    } 
-
     .hexbig0, .hexbig1, .hexbig2{
         top: 40vh;
         left: -50vh;
+    }
+
+    footer{
+        top: 210vh;
+    }
+    footer section nav{
+        left: 33%;
     }
 
 }

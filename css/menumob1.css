@@ -23,14 +23,6 @@ body div ul li img{
     justify-content: space-between;
 }
 
-#sobr{
-    top: 83px;
-    position: absolute;
-    display: flex;
-    width: 25px;
-    justify-content: space-between;
-}
-
 #projet{
     top: 45px;
     position: absolute;
@@ -40,7 +32,7 @@ body div ul li img{
 }
 
 #contat{
-    top: 120px;
+    top: 83px;
     position: absolute;
     display: flex;
     width: 25px;

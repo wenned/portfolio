@@ -316,7 +316,7 @@ footer section nav li a:hover{
 
 .content{
     display: flex;
-    top: 1870px;
+    top: 115em;
     position: absolute;
     align-items: center;
 }
@@ -512,7 +512,7 @@ textarea{
     }
 
     .content{
-        top: 1670px;
+        top: 97em;
 
     }
 

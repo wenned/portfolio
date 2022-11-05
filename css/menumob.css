@@ -1,91 +1,91 @@
 @media (max-width: 428px)  and (min-width: 412px) {
 
-body div ul{
-    position: fixed;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    background-color: #07edadff;
-    width: 200px;
-}
 
-body div ul li {
-    text-align: center;
-    padding: 10px;
-}
-
-body div ul li img{
-    top: 5px;
+    .menuPrincipal{
+        margin-top: 10px;
+        width: 0;
+        height: 600px;
+        position: absolute;
+        background: linear-gradient(120deg, #07edad, #57575c, #07edad);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        transition: 0.3s all ease-in-out;
+        z-index: 1;
+    
+    }
+    
+    .menuPrincipal.active{
+        width: 50%;
+        border: 1px solid #ffff;
+        transition: 0.3s all ease-in-out;
+    
+    }
+    
+    
+    .menuPrincipal ul{
+        margin: 0;
+        text-align: right;
+        background-color:transparent;
+        list-style: none;
+        width: 100%;
+        left: 0;
+        display: none;
+        transition: 0.3s all ease-in-out;
+    }
+    
+    .menuPrincipal ul.active{
+        display: block;
+        transition: 0.3s all ease-in-out;
+    } 
+    
+    .menuPrincipal ul img {
+        position: relative;
+        left: 25px;
+        width: 20px;
+        display: block;
+    }
+    
+    .menuPrincipal ul li{
+        align-items: center;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .menuPrincipal ul li:hover{
+        background: linear-gradient(30deg, #07edad, #57575c, #07edad);
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        transition: 0.2s all ease-in-out;
+    }
+    
+    .menuPrincipal ul li a{
+        align-items: center;
+        right: 30px;
+        position: absolute;
+        width: 100%;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .menuPrincipal ul li a:hover{color: white;
+    font-weight: bold;}
+    
+     .toggle{ 
+    top: 1em;
+    left: 21em;
     position: absolute;
-    display: flex;
-    width: 25px;
-    justify-content: space-between;
-}
-
-#sobr{
-    top: 83px;
-    position: absolute;
-    display: flex;
-    width: 25px;
-    justify-content: space-between;
-}
-
-#projet{
-    top: 45px;
-    position: absolute;
-    display: flex;
-    width: 25px;
-    justify-content: space-between;
-}
-
-#contat{
-    top: 120px;
-    position: absolute;
-    display: flex;
-    width: 25px;
-    justify-content: space-between;
-}
-
-body div ul li a{
-    text-decoration: none;
-    color: black;
-}
-
-body div ul li:hover{
-    border-radius: 15px;
-    background-color: #7cdfc3;
-}
-
-#hmenu {
-    position: absolute;
-    left: 20em;
-    top: 10em;
-    display: flex;
-    width: 10px;
-    height: 50px;
-}
-#hmenu img {
-    height: 40px;
     width: 40px;
-    top: -100px;
-    left: 30%;
-    text-align: right;
-    background-color: transparent;
-    position: absolute;
+    height: 40px;
+    padding: 20px;
+    cursor: pointer;
+    z-index: 1;
+    background-image: url('/img/icons/menu/ellipsis.svg');
+    }
 
-}
+    .toggle.active{
+        background-image: url('/img/icons/menu/close.svg');
+    }
 
-#hmenu img:hover {
-    opacity: 0.7;
-}
-
-#menu{
-    top: 7em;
-    left: 12em;
-    display: none;
-    box-shadow: -0.3em 5px .3em #008371ff;
-
-}
 
 }

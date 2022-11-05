@@ -36,17 +36,15 @@ body .corpo{
 
 /* ================================ ========= */
 
-#hmenu { display: none;}
+.menu li img {display: none;}
 
-ul li img {display: none;}
 ul { list-style: none;
     display: flex;}
 
-#menu{
+.menuPrincipal ul{
     position: absolute;
     top: 20px;
-    left: 900px;
-    display: block;
+    left: 60em;
     display: flex;
 }
 
@@ -58,7 +56,7 @@ ul { list-style: none;
     color: #000000;    
 }
 
-#menu li a:hover {
+.menuPrincipal ul li a:hover {
     background-color: #fcfcfc;
     border-radius: 3px;
     opacity: 0.8;

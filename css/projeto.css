@@ -33,13 +33,11 @@ body .corpo{
 
 /* =================================== */
 
-#hmenu { display: none;}
-
 ul li img {display: none;}
 ul { list-style: none;
     display: flex;}
 
-#menu{
+    .menuPrincipal ul{
     position: absolute;
     top: 20px;
     left: 65em;
@@ -244,7 +242,7 @@ h1{
     padding: 8px;
     position: relative;
     width: 370px;
-    top: 500px;
+    top: 10em;
     left: 1200px;
     display: none;
 }
@@ -388,7 +386,7 @@ footer section nav li a:hover{
 
     #descricaO{
         width: 370px;
-        top: 1200px;
+        top: 65em;
         left: 50px;
     }
 

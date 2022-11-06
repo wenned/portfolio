@@ -109,6 +109,8 @@ footer section nav li a:hover{
                 0 0 15px #07edadff;
 }
 
+footer section nav li a img{width: 40px;}
+
 /* ======================================================== */
 .hex0{
     top: 880px;

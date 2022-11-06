@@ -305,6 +305,9 @@ footer section nav li a:hover{
                 0 0 15px #07edadff;
 }
 
+footer section nav li a img{width: 40px;}
+
+
 /* ======================================================== */
 
 @media (max-width: 428px)  and (min-width: 412px) {

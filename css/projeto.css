@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body .corpo{
+.corpo{
 	display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -12,10 +12,9 @@ body .corpo{
 }
 
 .corpo{
-    position: absolute;
+    position: flex;
     width: 100%;
-    height: 50%;
-    background-color: #07edadff;
+    height: 0;
 }
 
 .corpo::before{
@@ -27,8 +26,8 @@ body .corpo{
     border: 60px solid transparent;
     border-top: 300px solid #07edadff;
     border-left: 300px solid #07edadff;
-    border-bottom: 100px solid #ffffff;
-    border-right: 350px solid #ffffff;
+    border-bottom: 100px solid transparent;
+    border-right: 350px solid transparent;
 }
 
 /* =================================== */
@@ -40,7 +39,7 @@ ul { list-style: none;
     .menuPrincipal ul{
     position: absolute;
     top: 20px;
-    left: 65em;
+    left: 55%;
     display: block;
     display: flex;
 }
@@ -84,7 +83,7 @@ ul { list-style: none;
 
 .logocent{
     position: absolute;
-    left: 1100px;
+    left: 65%;
     top: 100px;
     opacity: 0.4;
 }
@@ -308,9 +307,102 @@ footer section nav li a:hover{
 footer section nav li a img{width: 40px;}
 
 
-/* ======================================================== */
+@media (max-width: 890px){
 
-@media (max-width: 428px)  and (min-width: 412px) {
+    .menuPrincipal lu{
+        left: 24em;
+    }
+
+    .corpo{height:0;}
+
+    .corpo::before{
+        height: 170px;
+        border-top: 130px solid #07edadff;
+        border-left: 100px solid #07edadff;
+        border-bottom: 100px solid #ffffff;
+        border-right: 100px solid #ffffff;
+    }
+
+    .logocent{
+        left: 10em;
+        top: 10px;
+    }
+    .logocent img { width: 50px;}
+
+    .projeto0{
+        width: 300px;
+        height: 80px;
+        left: 50px;
+        top: 13em;
+    }
+    
+    .projeto0 img{ width: 120px;}
+
+    .projeto1{
+        width: 300px;
+        height: 80px;
+        left: 25em;
+        top: 13em;
+    }
+
+    .projeto1 img{ 
+        position: relative;
+        top: 1px;
+        width: 120px;}
+
+    .projeto2{
+        width: 300px;
+        height: 80px;
+        left: 50px;
+        top: 20em;
+    }
+
+    .projeto2 img{
+        position: relative;
+        top: 1px;
+        width: 120px;}
+
+    .projeto3{
+        width: 300px;
+        height: 80px;
+        left: 25em;
+        top: 20em;
+    }
+
+    .projeto3 img{
+        position: relative;
+        top: 1px;
+        width: 120px;}
+
+    #proj0{
+        top: 25em;
+        left: 10em;
+    }
+
+    #portfolio{
+        top: 4em;
+        left: 5px;
+    }
+
+    #descricaO{
+        top: 50em;
+        left: 13em;
+    }
+
+    h1{
+        top: 6.5em;
+        left: 15em;
+    }
+
+    footer{
+        top: 120vh;
+    }
+    footer section nav{
+        left: 33%;
+    }
+}
+
+@media (max-width: 480px){
 
     .corpo{height:0;}
 
@@ -409,99 +501,15 @@ footer section nav li a img{width: 40px;}
     };
 }
 
-
-
-@media (max-width: 890px)  and (min-width: 600px) {
-
-    #menu{
-        left: 24em;
+@media (max-width:330px){
+    .projeto0, .projeto1, .projeto2, .projeto3{
+        left: .5em;
     }
-
-    .corpo{height:0;}
-
-    .corpo::before{
-        height: 170px;
-        border-top: 130px solid #07edadff;
-        border-left: 100px solid #07edadff;
-        border-bottom: 100px solid #ffffff;
-        border-right: 100px solid #ffffff;
-    }
-
-    .logocent{
-        left: 10em;
-        top: 10px;
-    }
-    .logocent img { width: 50px;}
-
-    .projeto0{
-        width: 300px;
-        height: 80px;
-        left: 50px;
-        top: 13em;
-    }
-    
-    .projeto0 img{ width: 120px;}
-
-    .projeto1{
-        width: 300px;
-        height: 80px;
-        left: 25em;
-        top: 13em;
-    }
-
-    .projeto1 img{ 
-        position: relative;
-        top: 1px;
-        width: 120px;}
-
-    .projeto2{
-        width: 300px;
-        height: 80px;
-        left: 50px;
-        top: 20em;
-    }
-
-    .projeto2 img{
-        position: relative;
-        top: 1px;
-        width: 120px;}
-
-    .projeto3{
-        width: 300px;
-        height: 80px;
-        left: 25em;
-        top: 20em;
-    }
-
-    .projeto3 img{
-        position: relative;
-        top: 1px;
-        width: 120px;}
-
     #proj0{
-        top: 25em;
-        left: 10em;
+        left: .5em;
     }
+    #portfolio{width: 290px;}
 
-    #portfolio{
-        top: 4em;
-        left: 5px;
-    }
-
-    #descricaO{
-        top: 50em;
-        left: 13em;
-    }
-
-    h1{
-        top: 6.5em;
-        left: 15em;
-    }
-
-    footer{
-        top: 120vh;
-    }
-    footer section nav{
-        left: 33%;
-    }
+    #descricaO{top: 50.5em;
+        left: 2em;}
 }

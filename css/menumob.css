@@ -1,4 +1,4 @@
-@media (max-width: 428px)  and (min-width: 412px) {
+@media (max-width: 480px){
 
 
     .menuPrincipal{
@@ -86,6 +86,12 @@
     .toggle.active{
         background-image: url('/img/icons/menu/close.svg');
     }
+}
 
-
+@media (max-width: 330px){
+    .menuPrincipal.active{
+        width: 70%;
+        z-index: 2;
+    }
+    .toggle{left:15em;}
 }

@@ -9,12 +9,8 @@
     flex-direction: row;
     flex-wrap: wrap;
 	background-color: #f3dcdc;
-}
-
-.corpo{
-    position: flex;
-    width: 100%;
     height: 0;
+
 }
 
 .corpo::before{
@@ -52,13 +48,6 @@ ul { list-style: none;
     color: #000000;    
 }
 
-#menu li a:hover {
-    background-color: #fcfcfc;
-    border-radius: 3px;
-    opacity: 0.8;
-    color: black;
-}
-
 /* ================================== */
 
 .redondon{
@@ -89,8 +78,8 @@ ul { list-style: none;
 }
 .logocent img { width: 150px;}
 
-.hexbig2{
-    top: 197px;
+.hexbig1, .hexbig2{
+    top: 200px;
     position: absolute;
     left: 50px;
     height: 380px;
@@ -101,15 +90,10 @@ ul { list-style: none;
 
 }
 .hexbig1{
-    top: 200px;
-    position: absolute;
-    left: 50px;
-    height: 380px;
-    width: 615px;
     background-color: #05f3b0ff;
-    border-radius: 30px;
     transform: rotate(-29deg);
 }
+
 .hexbig0{
     top: 205px;
     position: absolute;
@@ -145,9 +129,6 @@ h1{
     box-shadow: -0.3em 5px .3em #008371ff;
     border-radius: 5px;
 }
-.projeto0:hover{
-    opacity: 0.7;
-}
 
 #proj0{
     position: absolute;
@@ -156,11 +137,7 @@ h1{
     top: 500px;
     left: 700px;
 }
-
-.projeto0 img {
-    width: 160px;
-}
-
+ 
 .projeto1{
     position: absolute;
     width: 170px;
@@ -172,11 +149,8 @@ h1{
     border-radius: 5px;
 
 }
-.projeto1:hover{
-    opacity: 0.7;
-}
 
-.projeto1 img {
+.projeto0 img, .projeto1 img, .projeto2 img, .projeto3 img {
     top:30px ;
     left: 5px;
     width: 160px;
@@ -194,16 +168,6 @@ h1{
     border-radius: 5px;
 
 }
-.projeto2:hover{
-    opacity: 0.7;
-}
-
-.projeto2 img {
-    top:30px ;
-    left: 5px;
-    width: 160px;
-    position: relative;
-}
 
 .projeto3{
     position: absolute;
@@ -215,15 +179,9 @@ h1{
     box-shadow: -0.3em 5px .3em #008371ff;
     border-radius: 5px;
 }
-.projeto3:hover{
-    opacity: 0.7;
-}
 
-.projeto3 img {
-    top:30px ;
-    left: 5px;
-    width: 160px;
-    position: relative;
+.projeto0:hover, .projeto1:hover, .projeto2:hover, .projeto3:hover{
+    opacity: 0.7;
 }
 
 #portfolio{
@@ -260,7 +218,9 @@ h1{
 
 /* ======================================================= */
 
-footer{top: 150vh;
+footer{
+    top: 140vh;
+    left: 0;
     width: 100%;
     position: absolute;}
 
@@ -313,14 +273,12 @@ footer section nav li a img{width: 40px;}
         left: 24em;
     }
 
-    .corpo{height:0;}
-
     .corpo::before{
         height: 170px;
         border-top: 130px solid #07edadff;
         border-left: 100px solid #07edadff;
-        border-bottom: 100px solid #ffffff;
-        border-right: 100px solid #ffffff;
+        border-bottom: 100px solid transparent;
+        border-right: 100px solid transparent;
     }
 
     .logocent{
@@ -335,9 +293,7 @@ footer section nav li a img{width: 40px;}
         left: 50px;
         top: 13em;
     }
-    
-    .projeto0 img{ width: 120px;}
-
+ 
     .projeto1{
         width: 300px;
         height: 80px;
@@ -345,7 +301,7 @@ footer section nav li a img{width: 40px;}
         top: 13em;
     }
 
-    .projeto1 img{ 
+    .projeto0 img, .projeto1 img, .projeto2 img, .projeto3 img{ 
         position: relative;
         top: 1px;
         width: 120px;}
@@ -357,23 +313,13 @@ footer section nav li a img{width: 40px;}
         top: 20em;
     }
 
-    .projeto2 img{
-        position: relative;
-        top: 1px;
-        width: 120px;}
-
     .projeto3{
         width: 300px;
         height: 80px;
         left: 25em;
         top: 20em;
     }
-
-    .projeto3 img{
-        position: relative;
-        top: 1px;
-        width: 120px;}
-
+    
     #proj0{
         top: 25em;
         left: 10em;
@@ -394,42 +340,48 @@ footer section nav li a img{width: 40px;}
         left: 15em;
     }
 
-    footer{
-        top: 120vh;
-    }
+    footer{top: 161vh;}
+
     footer section nav{
         left: 33%;
     }
 }
 
+@media (max-width: 717px){
+
+    .menuPrincipal ul{ left: 30%;}
+    
+    .logocent { left: 10%;}
+
+    .projeto0, .projeto1, .projeto2, .projeto3{ width: 250px;}
+
+    .projeto0, .projeto2{ left: 5%;}
+
+    .projeto1, .projeto3{left:50%;}
+    
+    #proj0{left: 10%;}
+
+    h1{left: 60%;}
+
+}
+
 @media (max-width: 480px){
-
-    .corpo{height:0;}
-
-    .corpo::before{
-        height: 170px;
-        border-top: 130px solid #07edadff;
-        border-left: 100px solid #07edadff;
-        border-bottom: 100px solid #ffffff;
-        border-right: 100px solid #ffffff;
-    }
 
     .logocent{
         left: 30px;
         top: 10px;
     }
+
     .logocent img { width: 50px;}
 
-    #big{
-        display: none;
-    }
+    #big{display: none;}
+
     .projeto0{
         width: 300px;
         height: 80px;
         left: 50px;
         top: 200px;
     }
-    .projeto0 img{ width: 120px;}
 
     .projeto1{
         width: 300px;
@@ -438,11 +390,6 @@ footer section nav li a img{width: 40px;}
         top: 300px;
     }
 
-    .projeto1 img{ 
-        position: relative;
-        top: 1px;
-        width: 120px;}
-
     .projeto2{
         width: 300px;
         height: 80px;
@@ -450,22 +397,12 @@ footer section nav li a img{width: 40px;}
         top: 400px;
     }
 
-    .projeto2 img{
-        position: relative;
-        top: 1px;
-        width: 120px;}
-
     .projeto3{
         width: 300px;
         height: 80px;
         left: 50px;
         top: 500px;
     }
-
-    .projeto3 img{
-        position: relative;
-        top: 1px;
-        width: 120px;}
 
     #proj0{
         width: 400px;
@@ -475,6 +412,7 @@ footer section nav li a img{width: 40px;}
     }
 
     #portfolio{
+        width: 360px;
         top: 50px;
         left: 5px;
     }

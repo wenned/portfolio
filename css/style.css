@@ -372,9 +372,6 @@ footer section nav li a:hover{
 
 footer section nav li a img{width: 40px;}
 
-
-/* ================= ====     ==== ========= === ======================= */
-
 @media (max-width: 890px){
 
     .menuPrincipal ul{
@@ -502,6 +499,7 @@ footer section nav li a img{width: 40px;}
     .img0{
         top: 400px;
         left: 30px;
+        z-index: 0;
     }
 
     .img0 img{width: 330px;}

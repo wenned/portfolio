@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+html{scroll-behavior: smooth;}
+
 .corpo{
 	display: flex;
     flex-direction: row;

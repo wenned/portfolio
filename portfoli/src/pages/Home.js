@@ -1,5 +1,11 @@
+import style from '../styles/Home.module.css'
+
 function Home(){
-    return <h1>Hello World!</h1>
+    return (
+    <div className={style.conteiner}>
+        <h1 className={style.item}>Inicio</h1>
+    </div>
+    )
 }
 
 export default Home

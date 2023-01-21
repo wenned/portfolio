@@ -1,0 +1,18 @@
+.conteiner{
+    position: relative;
+    justify-content: center;
+    height: 90vh;
+    top: 0;
+}
+
+.item{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    /* position: relative; */
+    /* text-align: center; */
+    /* padding: 0 2em; */
+    /* top: 0; */
+}

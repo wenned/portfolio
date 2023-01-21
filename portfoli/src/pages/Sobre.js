@@ -1,5 +1,12 @@
+import style from '../styles/Sobre.module.css'
+
+
 function Sobre(){
-    return <h1>Sobre</h1>
+    return (
+        <div className={style.conteiner}>
+            <h1 className={style.item}>Sobre</h1>
+        </div>
+        )
 }
 
 export default Sobre

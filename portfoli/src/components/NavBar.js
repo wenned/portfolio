@@ -5,6 +5,7 @@ function NavBar(){
     return (
 
         <nav className={style.ettabs}>
+            <h1>WENNED SILVA</h1>
             <div className={style.container}>
                 <Link className={style.ethero}  to="/">Inicio</Link>
                 <Link className={style.ethero} to="/Sobre">Sobre</Link>

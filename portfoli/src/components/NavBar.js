@@ -4,6 +4,35 @@ import { Link } from "react-scroll";
 
 function NavBar(){
 
+    document.addEventListener('scroll', ()=>{
+        var elem = document.getElementById('NavBar')
+        var cord = elem.getBoundingClientRect();
+
+        if (cord['bottom'] < 76){
+            var tag = document.getElementById('NavBar')
+
+            tag.style.position = 'fixed';
+            tag.style.removeProperty('bottom');
+            tag.style.top = 0;
+        }
+    });
+
+    document.addEventListener('scroll', ()=>{
+        var elem = document.getElementById('Home')
+        var cord = elem.getBoundingClientRect();
+
+        var cordenad =  893.03125
+        if (cord['bottom'] > cordenad ){
+            var tag = document.getElementById('NavBar')
+
+            tag.style.position = 'absolute';
+            tag.style.removeProperty('top');
+            tag.style.buttom = 0;
+        }
+    });
+
+
+
     return (
         <nav className={style.ettabs}>
             <h1>WENNED SILVA</h1>

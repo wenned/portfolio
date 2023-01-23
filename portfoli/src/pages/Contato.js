@@ -3,7 +3,7 @@ import style from '../styles/Contato.module.css'
 
 function Contato(){
     return (
-        <div className={style.conteiner}>
+        <div className={style.conteiner} id="Contato">
             <h1 className={style.item}>Contato</h1>
         </div>
     )

@@ -1,5 +1,6 @@
 .conteiner{
-    margin-bottom: 84vh;
+    background: rgb(49, 50, 160);
+
 }
 .item{
     display: flex;

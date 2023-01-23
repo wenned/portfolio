@@ -1,9 +1,10 @@
 .conteiner{
-    margin-bottom: 84vh;
+    background-color: blueviolet;
 }
 .item{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 90vh;
+    background-color: aquamarine;
 }

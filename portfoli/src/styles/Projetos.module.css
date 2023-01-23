@@ -1,10 +1,11 @@
 .conteiner{
-    margin-bottom: 84vh;
+    background: rgb(136, 29, 29);
+
 }
 .item{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 90vh;
 }
 

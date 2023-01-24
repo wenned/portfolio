@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="App">
 
-      <NavBar/>
-        <Home/>
+      <NavBar customClass="ativo"/>
+        <Home />
         <Sobre/>
         <Projetos/>
         <Contato/>

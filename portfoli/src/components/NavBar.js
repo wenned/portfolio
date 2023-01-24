@@ -2,7 +2,7 @@ import style from '../styles/NavBar.module.css'
 import { Link } from "react-scroll";
 
 
-function NavBar(){
+function NavBar(props){
 
     document.addEventListener('scroll', ()=>{
         var elem = document.getElementById('NavBar')
@@ -32,7 +32,7 @@ function NavBar(){
     });
 
     document.addEventListener("scroll", ()=>{
-        
+
         var elem0 = document.getElementById('Inicio');
         var elem1 = document.getElementById('About');
         var elem2 = document.getElementById('Project');
@@ -47,6 +47,7 @@ function NavBar(){
         var cord3 = elem3.getBoundingClientRect();
 
         if (cord0['bottom'] > 736){
+
             elem0.style.borderBottom = '5px solid green'
         };        
 
@@ -54,7 +55,13 @@ function NavBar(){
 
             var trocar = document.getElementById('t1');
             trocar.style.borderBottom = '5px solid green';
-            elem0.style.borderBottom = '5px solid white';
+            elem0.style.borderBottom = 'none';
+
+        }else{
+
+            var troc3 = document.getElementById('t1');
+            troc3.style.borderBottom = 'none';
+            elem0.style.borderBottom = '5px solid green'
 
         };
 
@@ -62,20 +69,28 @@ function NavBar(){
 
             var troca = document.getElementById('t2');
             troca.style.borderBottom = '5px solid green';
-            trocaElement1.style.borderBottom = '5px solid white'
+            trocaElement1.style.borderBottom = 'none'
 
+        }else{
+
+            var troc = document.getElementById('t2');
+            troc.style.borderBottom = 'none';
         };
 
         if (cord3['bottom'] < 1200){
 
-            var troca = document.getElementById('Contato');
-            troca.style.borderBottom = '5px solid green';
-            trocaElement2.style.borderBottom = '5px solid white'
+            var troc2 = document.getElementById('Contac');
+            troc2.style.borderBottom = '5px solid green';
+            trocaElement2.style.borderBottom = 'none'
+
+        }else{
+
+            var troc1 = document.getElementById('Contac');
+            troc1.style.borderBottom = 'none';
+            
         };
 
     });
-
-
 
     return (
         <nav className={style.ettabs}>
@@ -84,7 +99,7 @@ function NavBar(){
                     <Link className={style.ethero} id="Inicio" to="Home" spy={true} smooth={true} offset={-70} duration={500}>Inicio</Link>
                     <Link className={style.ethero} id="t1" to="Sobre" spy={true} smooth={true} offset={-70} duration={500}>Sobre</Link>
                     <Link className={style.ethero} id="t2" to="Projetos" spy={true} smooth={true} offset={-70} duration={500}>Projetos</Link>
-                    <Link className={style.ethero} to="Contato" spy={true} smooth={true} offset={-70} duration={500}>Contato</Link> 
+                    <Link className={style.ethero} id="Contac" to="Contato" spy={true} smooth={true} offset={-70} duration={500}>Contato</Link> 
             </div>
         </nav>
 

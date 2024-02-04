@@ -81,6 +81,7 @@ html{scroll-behavior: smooth;}
     align-items: center;
     justify-content: center;
     font-size: 1.5em;
+    width: 100%;
 }
 
 .image-center-home img{ width: 400px; }
@@ -114,8 +115,8 @@ html{scroll-behavior: smooth;}
     margin: 8px;
 }
 
-.formacao-conteiner p {
-    padding-top: 10px;
+.info-formacao p {
+    padding-top: 15px;
     text-align: justify;
 }
 
@@ -135,7 +136,7 @@ html{scroll-behavior: smooth;}
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    width: 80%;
+    width: 100%;
 }
 
 .tela-projetos {
@@ -269,14 +270,19 @@ h2{ letter-spacing: 20px; }
     .logo-developer{ font-size: 1.2em;}
 
     .logo-nome img { width: 70%; }
-
 }
 
 @media (max-width: 640px){
 
-    .conteiner-nav{ font-size: 0.80em; }
+    .conteiner-nav{ font-size: 0.6em; }
 
     .conteiner-nav-footer div span a img {
         width: 30px;
     }
+
+    .informacoes-sobre p { font-size: 1em;}
+
+    .info-formacao {font-size: 1em;}
+
+    .logo-developer { font-size: 1em;}
 }

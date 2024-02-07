@@ -7,15 +7,6 @@
 
 html{scroll-behavior: smooth;}
 
-.conteiner {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
 /* Configuracao dos elementos da barra de navegacao  */
 
 .conteiner-nav {
@@ -112,7 +103,7 @@ html{scroll-behavior: smooth;}
     font-size: 1.5em;
     height: 100%;
     width: 100%;
-    margin: 8px;
+    padding: 8px;
 }
 
 .info-formacao p {
@@ -239,7 +230,7 @@ html{scroll-behavior: smooth;}
     width: 100%;
 }
 
-.conteiner-nav-footer div span a img { width: 45px; }
+.conteiner-nav-footer div a img { width: 45px; }
 
 h2{ letter-spacing: 20px; }
 
@@ -276,7 +267,7 @@ h2{ letter-spacing: 20px; }
 
     .conteiner-nav{ font-size: 0.6em; }
 
-    .conteiner-nav-footer div span a img {
+    .conteiner-nav-footer div a img {
         width: 30px;
     }
 
